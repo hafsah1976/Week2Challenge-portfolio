@@ -1,0 +1,164 @@
+:root {
+--navyblue: #0f0930;
+--black: #000000;
+--white: #ffffff;
+--aqua: #31a6aa; 
+--lightblue: #73a9c2;
+--font1: 'Arial';
+--font2: 'Serif';
+}
+   
+/* removing default styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* header styling */
+  header {
+
+    background-color:#758da3; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight:bold;
+    padding:20px;
+  }
+
+  h1{
+
+    color:var(--navyblue);
+    font-size:40px;
+    /* font-weight:bold; */
+    background-color:#aaa2a2;
+    padding:10px;
+    border:5px solid #000000;
+      }
+  
+   h2{
+
+font-size:45px;
+
+   }
+    /* margin-top: 22px;
+   margin-right: 10px;
+   margin-left:0; */
+    /* padding: 20px;
+    display: inline-flex;
+    font-size:35px;
+    border-style:solid;
+    margin-left: 0%; */
+    /* position: relative; */
+  
+/* styling portfolio name */
+  
+/* styling list of links */
+  
+ nav ul li {
+ padding-top: 15px;
+   margin: 20px;
+   float:left;
+   font-family: var(--font1);
+   font-size:18px;
+   display:flex;
+ 
+   margin-left: 25px;
+   margin-right:10px;
+   justify-content: center;
+   list-style-type: none;
+        
+        }
+    
+
+ a{
+
+    font-style: var(--font1);
+    font-size: 20px;
+    color: var(--navyblue);
+    font-weight: bold;
+  }
+
+
+ /* .myimage {
+object-fit: cover;
+object-position: top;
+width:100%;
+height:600px;
+margin-bottom:25px; */
+/* width:100%;
+height: 650px;
+margin-bottom: 25px;
+object-fit: cover;
+object-position: top; */
+
+  
+  
+  /* nav p {
+    padding: 14px 20px;
+    text-decoration: var(--aqua);
+  } */
+ .pictureheader{
+background-image: url('../assets/images/img-header.jpg');
+height: 550px;
+background-size: cover;
+background-position: center;
+display:flex;
+align-items: center;
+justify-content: space-around;
+
+  }
+
+.float-left{
+float:left;
+
+}
+.float-right{
+    float:right;
+    
+    }
+
+.pictureheader blockquote{
+
+    font-size: 35px;
+    display:flex;
+    flex-flow: column;
+    justify-content:left;
+    text-align:center;
+    color:var(--white);
+
+}
+.pictureheader img{
+
+    height:500px;
+
+}
+   main {
+    /* padding: 0 0 0 0; */
+    margin:0;
+
+  }  
+  body {
+    font-family: var(--font2);
+    color: var(--black);
+    background-color: var(--lightblue);
+}
+  aside {
+    flex: 30%;
+    background-color: var(--white);
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
