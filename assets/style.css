@@ -1,3 +1,4 @@
+/* Custom properties set that can be used in the entire design and layout, unless set differently, it also allows me to be consistent in my design*/
 :root {
 --navyblue: #0f0930;
 --black: #000000;
@@ -12,21 +13,21 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-   
-}
+    margin: 0; }
 
-/* header styling */
+/* header formatting */
   header {
-    
     background-color:#758da3; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     font-weight:bold;
+    padding:20px;
+  
   }
 
-  h1{
+  /* styling the name   */
+  header h1{
 
     color:var(--navyblue);
     font-size:40px;
@@ -34,172 +35,177 @@
     background-color:#aaa2a2;
     padding:10px;
     border:5px solid #aaa2a2;
-    box-shadow: 4px 4px 6px #0f0930;
-    ;
+    /* box-shadow: 4px 4px 6px #0f0930; */
+    box-shadow: 5px 5px 6px rgba(128, 12, 12, 0.89);
       }
-  
-   h2{
-
-font-size:45px;
+       
+   h2{ 
+    font-size:45px;
 
    }
-    /* margin-top: 22px;
-   margin-right: 10px;
-   margin-left:0; */
-    /* padding: 20px;
-    display: inline-flex;
-    font-size:35px;
-    border-style:solid;
-    margin-left: 0%; */
-    /* position: relative; */
-  
-/* styling portfolio name */
-  
-/* styling list of links */
-  
- nav ul li {
-padding-top: 15px;
-margin-top:15px;
-margin-bottom: 20px;
-margin-right:20px;
-margin-left: 20px;
-float:left;
-font-family: var(--font1);
-display:flex;
-justify-content: center;
-list-style-type: none;
-        
-        }
-    
-
- a{
-
+/* anchor <a> formatting */
+   header a{
     font-style: var(--font1);
     font-size: 24px;
     color: var(--navyblue);
     font-weight: bold;
   }
+   
+  /* 
+  header nav {
+    margin:20px;} 
+  */
+ header nav ul  {
+padding-top: 15px;
+margin-top:15px;
+margin-bottom: 20px;
+margin-right:20px;
+margin-left: 20px;
+/* float:left; */
+font-family: var(--font1);
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style-type: none;
+        
+        }
+    
+/* styling links in the header */
+header nav ul li a {
+padding: 8px;
+font-size: 28px;
+margin: 20px 20px 0 0;
+font-weight: bold;}
+ /*header hover formatting */ 
+header nav ul li a:hover {
+background: var(--lightblue);
+color: var(--white);
+border-radius: 10px;
+      }
+
+/* general format of body */
+ body {
+  font-family: var(--font2);
+  color: var(--navyblue);
+  background-color: var(--lightblue);}
+
+/* setting main background */
+/* main{
+background-color: var(--lightblue);} */
 
 
- /* .myimage {
-object-fit: cover;
-object-position: top;
-width:100%;
-height:600px;
-margin-bottom:25px; */
-/* width:100%;
-height: 650px;
-margin-bottom: 25px;
-object-fit: cover;
-object-position: top; */
-
-  
-  
-  /* nav p {
-    padding: 14px 20px;
-    text-decoration: var(--aqua);
-  } */
- .pictureheader{
-background-image: url('../assets/images/img-header.jpg');
-height: 400px;
+  /* formatting and adding image and  quote */
+ .backgroundimg{
+background-image: url('../assets/images/web-developer-portfolio-png.png');
+height:500px;
 background-size: cover;
 background-position: center;
 display:flex;
 align-items: center;
-justify-content: space-around;
+justify-content: space-around; }
 
-  }
+/* avatar setting */
 
-.float-left{
-float:left;
+.backgroundimg img{
 
-}
+    height:350px;}
+
+    /* .float-left{
+float:left;}
 .float-right{
-    float:right;
-    
-    }
+    float:right;} */
 
-.pictureheader blockquote{
+/* formatting blockquote element inside the respective class */
 
-    font-size: 30px;
+.backgroundimg blockquote{
+    font-size: 32px;
     display:flex;
-    flex-flow: column;
-    justify-content:left;
-    text-align:center;
-    color:var(--white);
+    flex-flow:column;
+    justify-content:right;
+    text-align:justify;
+    color:var(--white);}
 
-}
-.pictureheader img{
+.backgroundimg blockquote span{
 
-    height:350px;
+  font-size:36px;}
+ 
+/*  general format of sections*/
 
-}
-  main{
-background-color: var(--lightblue);
-
-  }
-  body {
-    font-family: var(--font2);
-    color: var(--black);
-    background-color: var(--lightblue);
-}
-
-/*  sections settings*/
-  
 section {
-  display:inline-flex;
-     background-color:var(--lightblue);
-     padding: 20px;
-   }
+  background-color:var(--lightblue);
+  /* padding: 20px;*/ }
+
 /* styling subheadings like about me work etc. */
+
 .subheading{
 border-right: 5px solid var(--navyblue);
 text-align:center;
-padding-right: 36px;
+/* padding-right: 36px; */
 min-width:20%;
 max-width:20%;
-vertical-align: middle;
-}
+min-height: 100%;
+/* text-decoration:dashed;} */
+/* vertical-align: middle;} */}
 
-/* styling about me section */
+.subheading h2 { 
+  font-size:40px; }
+
+/* formatting about me section*/
+
 .aboutme{
-
 display:flex;
 align-items: stretch;
 justify-content: space-between;
-/* padding:0px 30px; */
-}
-.aboutme p  {
-    
+padding-top:30px; }
 
+.aboutme p  {
     padding: 0 30px;
     line-height:1.6;
     font-size: 22px;  
     width: 90%;}
    
-/* about me styling ends */
+/* end of about me formatting */
     
-/* my work section */
+/* formatting my work section */
 
 .work{
-
     display:flex;
     justify-content:space-between;
     /* flex-direction: column; */
     /* align-items: center;*/
-    /* padding: 0px 30px; */
-    background-color: var(--white) ;
-}
+    padding: 30px 0px; 
+    background-color: var(--white) ; }
 
-/* creating project/my work section */
+ .work h2 {
+  color:crimson; /*distinct color for work to stand out being the main part of the webpage*/
+ }
 
+/* creating a grid layout to view projects */
 
+.gridsection{
+  display:grid;
+  /* align-content: center; */
+  width: 70%;
+  grid-template-columns: repeat(2,1fr); /* 2 columns and width we want in fraction unit*/
+  grid-template-rows: repeat(4,1fr);/* 4 rows and width we want in fraction unit*/
+  gap: 10px;}
+  
+  /*The grid wrapping plays an important part in the designing layout of a webpage.
+  It aligns grid content within a central wrapper, while letting items to break out and align to the edge of the containing element, which is section in this case.*/
 
-/* styling the project work section */
+  .wrapper {
+  display:flex;
+  justify-content:center;
+  width:80%;
+  height:500px; 
+  /* width: 100%; */
+  /* padding: 10px;} */}
+
+/* formatting the project work section - on the right */
 
 .work-projects{
   display:flex;
-  /* justify-content: */
+  /* justify-content:flex-end; */
   align-items:flex-end;
   border: solid;
   color:var(--navyblue);
@@ -207,86 +213,206 @@ justify-content: space-between;
   background-position: center;
   opacity: 0.5;
   text-decoration: none;
+  margin:4px;
 }
 
+/* project hover format */
 .work-projects:hover{
+  opacity: 1.0; }
 
-  opacity: 1;
+/* end of creating a project grid/section */
 
-}
-/* creating a grid layout to view projects */
-.gridsection{
-
-display:grid;
-align-content: center;
-width: 80%;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows: repeat(4,1fr);
-gap: 10px;
-}
-
-/*  */
-.wrapper {
-
-  display:flex;
-  justify-content:center;
-width:80px;
-height:550px; 
-
-width: 100%;
-padding: 10px;
-
-}
-
-
-/* end of creating a project grid */
-
+/* loading projects (load future projects here */
 .refactorchallenge{
-
   grid-column: 1/3;
   grid-row: span 2;
-  background-image: url("../assets/images/Horiseon.jpg");
-
-}
+  background-image: url("../assets/images/Horiseon.jpg");}
 
 .prework-study-guide{
 
- background-position:50% 15%;
-  background-image: url("../assets/images/study-guide.jpg");
+background-position:100%;
+background-image: url("../assets/images/study-guide.jpg");
 
 }
 
 .project3{
   background-image: url("../assets/images/project-3.png");
-  /* background-position: 60% 50%; */
-
-}
+  background-position: 60% 50%;  }
 
 .project4{
 
   background-image: url("../assets/images/project-4.png");
-  background-position: 60% 50%; 
-}
+  /* background-position: 60% 50%;  */ }
 
 .project5{
 
   background-image: url("../assets/images/project-5.png");
-  background-position: 60% 50%; 
+  /*background-position: 60% 50%;*/ }
 
-}
+/* project label on the left side on the top of project column*/
 
-/* project label at the top*/
 .project-title{
   background-color: rgb(36, 137, 177);
   color: var(--navyblue);
-  padding:5px; 
-  
-  /* align-self: flex-start; */
-  /* flex-flow: column-reverse; */
-  }
+  padding:8px; 
 
+  /* align-self: flex-start; */
+  /* flex-flow: column-reverse; */}
+
+/* end of work section formatting */
+
+/* formatting contact me section using the footer element  */
+    
   footer {
-    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px; 
+    margin-bottom:30px; /*note to self-margin top will make the links appear to the very end*/
     text-align: center;
   }
   
+/* footer content setting */
+.footer-content{
+  padding:12px;
+  display:flex;
+  width:80%;
+  justify-content:center;
+  align-items: center;
+font-weight: bold;
+}
+
+
+.contact-means{
+  width:60%;
+}
+
+/* footer links listed as a row */
+
+footer ul{
+display:flex;
+flex-wrap: wrap;
+list-style-type: none;
+justify-content: space-evenly;
+align-content:center;
+font-size:28px;
+font-weight: bolder;
+text-decoration:underline;
+/* padding:15px; */
+/* border-radius: 12px; */
+}
+
+/* footer links formatting */
+footer ul li a {
+  text-decoration: none;
+  color:var(--navyblue);
+  /* padding-left: 0;
+  padding-right: 30px; */
+  margin-left: 92px;
+  margin-right:60px;
+  font-weight: bold;}
+
+/* hover formatting for links in contact me */
+
+ footer ul li a:hover{
+ background-color: var(--navyblue);
+ color:var(--white);
+ /* padding-left: 0;
+ padding-right: 0; */
+ border-radius: 10px;
+
+}
+
+/* end of formatting contact me section  */
+
+/* MEDIA QUERY FOR: TABLET SCREENS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .backgroundimg blockquote {
+        font-size: 26px;
+        padding-right: 18px;
+    }
+    
+    .backgroundimg blockquote {
+        font-size: 32px;
+    }
+
+    .subheading h2 {
+        font-size: 35px;
+    }
+
+    .aboutme p {
+        font-size: 14px;
+        padding:12px;
+        line-height: 1.6;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    header nav ul {
+        min-height: 80px;
+    }
+
+    .backgroundimg {
+        flex-direction: column;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .subheading {
+      padding:0;
+      border-bottom: 6px solid #520808;
+      border-right:none;
+      text-align: center;
+      min-width: 100%;
+      max-width: 100%;
+    }
+
+    .aboutme p {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .work {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .gridsection {
+        width: 80%;
+   
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+
+    footer ul li {
+        display: flex;
+        padding: 10px;
+        text-align: center;
+    }
+    
+} 
