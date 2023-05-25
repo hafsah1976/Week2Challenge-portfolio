@@ -238,18 +238,18 @@ background-image: url("../assets/images/study-guide.jpg");
 }
 
 .project3{
-  background-image: url("../assets/images/project-3.png");
+  background-image: url("../assets/images/helloWorld.png");
   /* background-position: 60% 50%;  */}
 
 .project4{
 
-  background-image: url("../assets/images/project-4.png");
+  background-image: url("../assets/images/CSS-Cheat-Sheet-4.jpg");
   /* background-position: 60% 50%;  */ }
 
 .project5{
 
-  background-image: url("../assets/images/project-5.png");
-  /*background-position: 60% 50%;*/ }
+  background-image: url("../assets/images/javascript-iterate-array.jpg");
+  background-position: 60% 50%; }
 
 /* project label on the left side on the top of project column*/
 
