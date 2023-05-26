@@ -162,7 +162,9 @@ padding-top:30px; }
     padding: 0 30px;
     line-height:1.6;
     font-size: 22px;  
-    width: 90%;}
+    width: 90%;
+    text-align: justify;
+  }
    
 /* end of about me formatting */
     
