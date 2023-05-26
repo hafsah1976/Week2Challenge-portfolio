@@ -22,6 +22,8 @@ The URL will mostly work in all the browsers. Preferred Browser is Google Chrome
 
 ## Usage
 
+[View My Professional Portfolio](https://hafsah1976.github.io/hafsah-professional-portfolio/)
+
 The webpage follows accessibility standards. A potential employer, can use this website  to view information about me , my work, and reach out to me if they think that I am a suitable candidate for their organization.
 
 ![SCREENSHOT](assets/images/PORTFOLIO-SCREENSHOT.jpg)
@@ -29,10 +31,16 @@ The webpage follows accessibility standards. A potential employer, can use this 
 ## Credits
 
 [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+
 [CSS Tricks - A complete guide to grid layout](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
 [Grid-Column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+
 [Viewport meta tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
+
 [Working with links and images](https://codecoda.com/en/blog/entry/css-working-with-links-and-images)
+
+[Grid Wrapper](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Grid_wrapper)
 
 ## MIT License
 
