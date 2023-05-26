@@ -30,17 +30,17 @@ The webpage follows accessibility standards. A potential employer, can use this 
 
 ## Credits
 
-[Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+- [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
-[CSS Tricks - A complete guide to grid layout](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Tricks - A complete guide to grid layout](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-[Grid-Column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+- [Grid-Column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
 
-[Viewport meta tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
+- [Viewport meta tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
 
-[Working with links and images](https://codecoda.com/en/blog/entry/css-working-with-links-and-images)
+- [Working with links and images](https://codecoda.com/en/blog/entry/css-working-with-links-and-images)
 
-[Grid Wrapper](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Grid_wrapper)
+- [Grid Wrapper](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Grid_wrapper)
 
 ## MIT License
 
