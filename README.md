@@ -6,15 +6,15 @@ My motivation is to learn as much as I can from this course, in general. My aim 
 
 ## Table of Contents
 
--[Installation](#installation)
+- [Installation](#installation)
 
--[Usage](#usage)
+- [Usage](#usage)
 
--[Credits](#credits)
+- [Credits](#credits)
 
--[License](#license)
+- [License](#license)
 
--[Tests](#tests)
+- [Tests](#tests)
 
 ## Installation
 
