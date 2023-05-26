@@ -1,4 +1,4 @@
-# Week-2Challenge-portfolio
+# Week-2 - Challenge - Professional Portfolio
 
 ## My Professional Portfolio
 
