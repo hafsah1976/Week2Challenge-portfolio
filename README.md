@@ -1,4 +1,4 @@
-# Week-2 - Challenge - Professional Portfolio
+# Professional Portfolio
 
 ## My Professional Portfolio
 
@@ -26,7 +26,7 @@ The URL will mostly work in all browsers. The preferred Browser is Google Chrome
 
 The webpage follows accessibility standards. A potential employer can use this website  to view information about me, and my work, and reach out to me if they think that I am a suitable candidate for their organization.
 
-![SCREENSHOT](assets/images/PORTFOLIO-SCREENSHOT.jpg)
+![PORTFOLIO](assets/images/update-portfolio.png)
 
 ## Credits
 
