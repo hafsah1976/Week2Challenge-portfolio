@@ -226,16 +226,27 @@ padding-top:30px; }
 
 /* loading projects (load future projects here */
 .project-oddquoteout{
-  background-position: 50% 5%;
+  background-position: 52% 4%;
   grid-column: 1/3;
   grid-row: span 2;
-  background-image: url("assets/images/OQO-KE.png");}
+  background-image: url("../assets/images/OQO-KE.png");
+
+}
 
 .prework-study-guide{
 
 /* background-position:15% 50%; */
 
 background-image: url("../assets/images/study-guide.jpg");
+
+}
+
+.project-oddquoteout-T{
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(236, 163, 115);
+  color: var(--navyblue);
+  padding:8px; 
+
 
 }
 
