@@ -2,7 +2,7 @@
 
 ## My Professional Portfolio
 
-My motivation is to learn as much as I can from this course, in general. My aim is to learn new skills and apply them to solve real world problems. This project is built to showcase my new found skills to potential employers. This portfolio consists of a couple of projects that I have worked during the period of this course. I have included some class work activities in the work section to ensure the website has all inclusive functional links. I would add and replace the samples with actual projects as we move forward in the bootcamp. I have tried to apply everything we learned about CSS and HTML. This is a huge first step towards my career goals. Lots more to learn, all in due time.
+My motivation is to learn as much as I can from this course. I aim to learn new skills and apply them to solve real-world problems. This project is built to showcase my newfound skills to potential employers. This portfolio consists of a couple of projects that I have worked on during the period of this course. I have included some classwork activities in the work section to ensure the website has all-inclusive functional links. I would add and replace the samples with actual projects as we move forward in the boot camp. I have tried to apply everything we learned about CSS and HTML. This is a huge first step toward my career goals. Lot more to learn, all in due time.
 
 ## Table of Contents
 
@@ -18,13 +18,13 @@ My motivation is to learn as much as I can from this course, in general. My aim 
 
 ## Installation
 
-The URL will mostly work in all the browsers. Preferred Browser is Google Chrome and the extension Chrome DevTools Extension to view the source code. GitHub is the cloud service for projects/repositories. You can simply visit the URL to view the repository in your browser: [GitHub](https://github.com/hafsah1976/hafsah-professional-portfolio)
+The URL will mostly work in all browsers. The preferred Browser is Google Chrome and the extension Chrome DevTools Extension to view the source code. GitHub is a cloud service for projects/repositories. You can simply visit the URL to view the repository in your browser: [GitHub](https://github.com/hafsah1976/hafsah-professional-portfolio)
 
 ## Usage
 
 [View My Professional Portfolio](https://hafsah1976.github.io/hafsah-professional-portfolio/)
 
-The webpage follows accessibility standards. A potential employer, can use this website  to view information about me , my work, and reach out to me if they think that I am a suitable candidate for their organization.
+The webpage follows accessibility standards. A potential employer can use this website  to view information about me, and my work, and reach out to me if they think that I am a suitable candidate for their organization.
 
 ![SCREENSHOT](assets/images/PORTFOLIO-SCREENSHOT.jpg)
 
@@ -48,7 +48,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Tests
 
@@ -60,9 +60,9 @@ Result as expected:
 
 ![SCREENSHOT](assets/images/RESUME.png)
 
-### Test case - 2 - Checking project 1 - Refactor Challenge
+### Test case - 2 - Checking project 1 - Odd Quote Out: Kanye Edition
 
-![Checking Project 1](assets/images/project-1.png)
+![Checking Project 1](assets/images/OQO-KE.png)
 
 Result as expected:
 
