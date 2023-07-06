@@ -64,10 +64,6 @@ Result as expected:
 
 ![Checking Project 1](assets/images/OQO-KE.png)
 
-Result as expected:
-
-![Checking Project 1](assets/images/project-1-result.png)
-
 ### Test case - 3 - Checking project 2 - Prework Study Guide
 
 ![Checking Project 2](assets/images/project-2.png)
